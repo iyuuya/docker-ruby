@@ -1,7 +1,7 @@
 FROM amazonlinux:latest
 MAINTAINER iyuuya <i.yuuya@gmail.com>
 
-ARG RUBY_VERSION=2.5.0
+ARG RUBY_VERSION=2.4.3
 
 # Install dependencies, rbenv and ruby-build
 RUN set -ex && \
