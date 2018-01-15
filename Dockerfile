@@ -8,7 +8,7 @@ RUN set -ex && \
     \
     deps=' \
       git \
-      gcc72 \
+      gcc \
       bzip2 \
       openssl-devel \
       readline-devel \
