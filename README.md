@@ -1,3 +1,3 @@
 # docker-ruby
 
-https://registry.hub.docker.com/u/iyuuya/ruby
+https://hub.docker.com/r/iyuuya/ruby
