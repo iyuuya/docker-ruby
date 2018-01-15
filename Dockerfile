@@ -29,7 +29,7 @@ RUN set -ex && \
       echo 'update: --no-rdoc --no-ri --no-document'; \
     } >> /usr/local/rbenv/gemrc && \
     { \
-      echo "export RBENV_ROOT=/usr/local/rbenv"; \
+      echo 'export RBENV_ROOT=/usr/local/rbenv'; \
       echo 'export PATH=$RBENV_ROOT/bin:$PATH'; \
       echo 'export GEMRC=$RBENV_ROOT/gemrc:$GEMRC'; \
       echo 'eval "$(rbenv init -)"'; \
